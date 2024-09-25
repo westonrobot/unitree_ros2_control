@@ -17,7 +17,6 @@ set(THIS_PACKAGE_INCLUDE_DEPENDS
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(backward_ros REQUIRED)
 find_package(unitree_sdk2 REQUIRED)
 
 foreach (Dependency IN ITEMS ${THIS_PACKAGE_INCLUDE_DEPENDS})
